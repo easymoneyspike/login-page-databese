@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AutoBox | Brooklyn</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../css/login.css">
+    <script defer src="../js/login.js"></script>
+
+</head>
+
+<body>
+
+    <main class="container">
+        <!-- Main IMG -->
+        <section class="img section_img">
+            <img src="../assets/main-car.jpg" alt="Logo carro">
+        </section>
+
+        <!-- Login area -->
+
+        <section class="login">
+            <!-- Form -->
+            <form class="form">
+                <h1 class="title">
+                    Entre na sua conta!
+                </h1>
+
+                <!-- Inputs login -->
+
+                <div class="input-box">
+                    <label for="user">
+                        nome de usuário
+                    </label>
+
+                    <div class="input-field">
+                        <i class="fa-solid fa-user"></i>
+                        <input class="input green" id="user" type="text" required>
+                        <img class="icon" src="">
+                    </div>
+                </div>
+
+                <div class="input-box">
+                    <label for="password">
+                        senha de usuário
+                    </label>
+
+                    <div class="input-field">
+                        <i class="fa-solid fa-lock"></i>
+                        <input class="input green" id="password" type="password" required>
+                        <img class="icon" src="">
+                    </div>
+                </div>
+
+                <!-- Button form -->
+
+                <button class="button" disabled>
+                    <span>Verificar Login</span> <i class="fa-solid fa-lock"></i>
+                </button>
+            </form>
+
+            <div class="area-media">
+                <a href="https://www.google.com.br/"><img class="logo_media" src="../assets/google-logo.png" alt="Google"></a>
+                <a href="#"><img class="logo_media" src="../assets/apple-logo.png" alt="Apple"></a>
+                <a href="#"><img class="logo_media" src="../assets/facebook-logo.png" alt="Facebook"></a>
+            </div>
+
+            </div>
+
+            <!-- Support area -->
+            <section class="area-support">
+                <div class="support">
+                    <div class="sup change">
+                        <p>dificuldades de login?</p>
+                        <a class="link-support" href="#">
+                            trocar senha
+                            <i class="fa-solid fa-unlock"></i>
+                        </a>
+                    </div>
+                    <div class="sup create ">
+                        <p>não tem uma conta?</p>
+                        <a href="#" class="link-support">
+                            criar conta
+                            <i class="fa-solid fa-right-to-bracket"></i>
+                        </a>
+                    </div>
+                </div>
+
+            </section>
+
+            <!-- Components -->
+            <section class="login-sucess hidden">
+                <div class="sucess">
+                <h2 class="title">
+                    Você está conectado!
+                    <i class="fa-solid fa-lock-open"></i>
+                </h2>
+                <div class="loading">
+                    <p>Entrando na conta <div class="loader"></div></p>
+                </div>
+                
+            </div>
+            </section>
+            <!-- <section class="login-sucess">
+                <span></span>
+            </section> -->
+        </section>
+    </main>
+
+</body>
+
+</html>
